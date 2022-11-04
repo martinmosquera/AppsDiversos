@@ -27,3 +27,14 @@ no botão.
 - 1 Real = 6,20 Euros
 
 ---
+
+### TipCalc V1
+
+#### Faça um aplicativo que recebe o valor de uma conta de um restaurante e permita o usuário (a partir de um seekbar) informar a gorjeta a ser paga.
+
+#### Input
+- Valor da conta
+- Seekbar – valor da gorjeta (em porcentagem)
+
+#### Output
+- Valor final da conta (conta + gorjeta)
