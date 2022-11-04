@@ -1,6 +1,7 @@
 # AppsDiversos
-- Disciplina Desenvolvimento de Aplicativos Mobiles
-- Professor: ALESSANDRO BRAWERMAN
+> Desenvolvimento de Aplicativos Mobiles - UFPR
+> Professor: ALESSANDRO BRAWERMAN
+
 ## Apps Mobile - Biscoito da Sorte - Conversor de moeda - Calculo de Propina
 
 ### Biscoito da Sorte
@@ -15,3 +16,15 @@ no botão.
 
 ---
 
+### Conversor de moeda
+
+- Faça um app que converta entre as moedas dólar, real e euro.
+
+- Use radio groups e radio buttons para descobrir a moeda origem e a moeda destino.
+
+- Mostre o resultado final da conversão baseado nas taxas:
+
+> 1 Real = 5,50 Dólares
+> 1 Real = 6,20 Euros
+
+---
