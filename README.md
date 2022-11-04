@@ -1,5 +1,5 @@
 # AppsDiversos
-- Disciplina Desenvolvimento de Aplicativos Mobiles
+- Desenvolvimento para Dispositivos Móveis
 - Professor: ALESSANDRO BRAWERMAN
 ## Apps Mobile - Biscoito da Sorte - Conversor de moeda - Calculo de Propina
 
