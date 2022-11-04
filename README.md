@@ -1,7 +1,12 @@
 # AppsDiversos
+<<<<<<< HEAD
 > Desenvolvimento de Aplicativos Mobiles - UFPR
 > Professor: ALESSANDRO BRAWERMAN
 
+=======
+- Desenvolvimento para Dispositivos Móveis
+- Professor: ALESSANDRO BRAWERMAN
+>>>>>>> 1f5a6256deb25a34650cfeda0f2dafb0d278f716
 ## Apps Mobile - Biscoito da Sorte - Conversor de moeda - Calculo de Propina
 
 ### Biscoito da Sorte
