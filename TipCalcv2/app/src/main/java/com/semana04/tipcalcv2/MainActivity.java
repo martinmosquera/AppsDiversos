@@ -96,10 +96,7 @@ public class MainActivity extends AppCompatActivity {
 
         quantidadePessoasTextView.setText(String.valueOf(quantidadePessoas));
         double valorAtual = currentBillTotal+(currentBillTotal * currentCustomPrecent * 0.01);
-        double valorPessoa;
-        if(valorAtual > 0.0){
-            valorPessoa = valorAtual/quantidadePessoas;
-        }else valorPessoa = 0.0;
+        double valorPessoa = valorAtual/quantidadePessoas;
         totalPessoaEditText.setText(String.format("%.02f",valorPessoa));
     }
 
