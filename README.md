@@ -33,8 +33,22 @@ no botão.
 #### Faça um aplicativo que recebe o valor de uma conta de um restaurante e permita o usuário (a partir de um seekbar) informar a gorjeta a ser paga.
 
 #### Input
-- Valor da conta
-- Seekbar – valor da gorjeta (em porcentagem)
+* Valor da conta
+* Seekbar – valor da gorjeta (em porcentagem)
 
 #### Output
-- Valor final da conta (conta + gorjeta)
+* Valor final da conta (conta + gorjeta)
+
+
+### TipCalc V2
+
+* O objetivo desta app é desenvolver uma calculadora de gorjetas.
+
+* Para tal será projetada uma interface usando o TableLayout e os componentes TextView, EditText e SeekBar.
+
+* O usuário pode dividir a conta em até 10 pessoas.
+
+* Insira na view um seekbar e textview para informar o número de pessoas que irão dividir a conta.
+
+* Insira ainda um textview que informe o preço da conta total (conta + gorjeta) por pessoa.
+
