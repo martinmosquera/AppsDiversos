@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="clip_horizontal|center"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="10dp">
+
+        <TableRow
+            android:id="@+id/titleTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="60dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:text="Cálculadora IMC"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/nomeTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:id="@+id/nomeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Nome"
+                android:textColor="@color/viewText"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/nomeEditText"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Digite seu Nome"
+                android:inputType="textPersonName"
+                android:paddingRight="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/alturaTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:id="@+id/alturaTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Altura (m)"
+                android:textColor="@color/viewText"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/alturaEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Altura (m)"
+                android:inputType="numberDecimal"
+                android:paddingRight="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/pesoTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:id="@+id/pesoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Peso (kg)"
+                android:textColor="@color/viewText"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/pesoEditText"
+                android:hint="Peso (kg)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:paddingRight="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/enviar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingTop="30dp"
+            android:paddingRight="5dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:backgroundTint="@color/botton"
+                android:onClick="calcular"
+                android:text="Calcular"
+                android:textSize="22sp" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

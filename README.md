@@ -52,3 +52,13 @@ no botão.
 
 * Insira ainda um textview que informe o preço da conta total (conta + gorjeta) por pessoa.
 
+
+### Cálculadora IMC
+
+* Faça um app que captura dados de um usuário em uma activity e mostra o resultado em uma segunda activity.
+* Nome
+* Peso
+* Altura
+* Use as máscaras apropriadas dos EditTexts.
+* Não faça um botão para voltar para a tela 1, use o botão padrão do Android.
+* IMC = peso / altura2
