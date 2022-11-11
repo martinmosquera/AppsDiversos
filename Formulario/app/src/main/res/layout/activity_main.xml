@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/titleTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="50dp">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:paddingLeft="10dp"
+                android:text="Formulário"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/nomeTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/nomeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Nome"
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/nomeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nome"
+                android:inputType="textPersonName"
+                android:minHeight="50sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/idadeTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/idadeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Idade"
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:id="@+id/idadeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Idade"
+                app:mask="##"
+                app:maskCharacter="#"
+                android:inputType="number"
+                android:minHeight="50sp" />
+        </TableRow>
+
+        <TableRow android:id="@+id/telefoneTableRow">
+
+            <TextView
+                android:id="@+id/telefoneTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Telefone"
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:id="@+id/telefoneEditText"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:hint="Telefone"
+                android:inputType="number"
+                android:maxHeight="50sp"
+                app:mask="+55(__) ___ __ ____"
+                app:maskCharacter="_"
+                app:maskStyle="completable" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/loginTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/loginTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Login"
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/loginEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Login"
+                android:inputType="textPersonName"
+                android:minHeight="50sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/senhaTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/senhaTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Senha"
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/senhaEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:minHeight="50sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="30dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:backgroundTint="@color/boton"
+                android:onClick="enviar"
+                android:text="Enviar" />
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

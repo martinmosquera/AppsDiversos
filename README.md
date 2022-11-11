@@ -1,8 +1,8 @@
 # AppsDiversos
 - Desenvolvimento para Dispositivos Móveis
 - Professor: Alessandro Brawerman
-## --
 
+--
 ### Biscoito da Sorte
 
 - A ideia é desenvolver um app que mostre aleatoriamente uma frase de
@@ -39,6 +39,7 @@ no botão.
 #### Output
 * Valor final da conta (conta + gorjeta)
 
+---
 
 ### TipCalc V2
 
@@ -53,6 +54,8 @@ no botão.
 * Insira ainda um textview que informe o preço da conta total (conta + gorjeta) por pessoa.
 
 
+---
+
 ### Cálculadora IMC
 
 * Faça um app que captura dados de um usuário em uma activity e mostra o resultado em uma segunda activity.
@@ -62,3 +65,18 @@ no botão.
 * Use as máscaras apropriadas dos EditTexts.
 * Não faça um botão para voltar para a tela 1, use o botão padrão do Android.
 * IMC = peso / altura2
+
+
+---
+
+### Formulário
+
+* Faça uma app que captura dados de um usuário em uma activity e
+mostra estes em uma segunda activity.
+* Nome
+* Idade
+* Telefone
+* Login
+* Senha
+* Use as máscaras apropriadas dos EditTexts.
+* Não faça um botão para voltar para a tela 1, use o botão padrão do Android.
