@@ -1,7 +1,7 @@
 # AppsDiversos
 - Desenvolvimento para Dispositivos Móveis
 - Professor: Alessandro Brawerman
-## Biscoito da Sorte - Conversor de moeda - Calculo de Propina
+## --
 
 ### Biscoito da Sorte
 
