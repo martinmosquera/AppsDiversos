@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onItemLongClick(View childView, int position) {
+            public void onLongItemClick(View view, int position) {
                 ToDo selectedToDo = toDoList.get(position);
                 AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
                 dialog.setTitle("Confirmar Exclusão");
