@@ -80,3 +80,29 @@ mostra estes em uma segunda activity.
 * Senha
 * Use as máscaras apropriadas dos EditTexts.
 * Não faça um botão para voltar para a tela 1, use o botão padrão do Android.
+
+---
+
+### Simple DB
+
+* Crie a classe Java SimpleDBWrapper: vamos usar esta classe para criar e atualizar o BD.
+* Crie uma nova classe, StudentOperations, que irá realizar as operações de CRUD no BD.
+* Classe de acesso ao BD.
+* Nesta classe faremos as ações:
++ Abrir e fechar a base
++ Inserir estudante
++ Deletar o primeiro registro da lista
++ Listar todos os registro da base
++ Parser de registro para objeto estudante
+
+---
+
+### ToDoList
+
+* O objetivo deste app é desenvolver uma lista de tarefas simples para fixação de conceitos e funcionamento de SQLite e Recycler View.
+* Adicionar um menu Android para a tela principal.
+* Adicionar na tela principal um Recycler View para podermos listar as tarefas gravadas.
+* Adicione as opções de salvar em uma activity AddToDoActivity, que será chamada na edição também
+* No clique normal no item da recycler view iremos editar a tarefa.
+* No clique longo no item da recycler view iremos remover a tarefa, apresentando un dialogo de confirmação.
+* Armazenar as tarefas em um banco de dados SQLite.
